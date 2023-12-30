@@ -47,6 +47,11 @@
     cursor: pointer;
 }
 
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .input-box {
     position: relative;
     width: 100%;
@@ -55,7 +60,7 @@
     background: #fff;
     color: #333;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
     outline: none;
     border-radius: 5px;
 }
